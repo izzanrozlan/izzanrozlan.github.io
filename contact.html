@@ -4,19 +4,24 @@
 <title>Contact</title>
 <link href="webpage.css" rel="stylesheet" type="text/css">
 <script type='text/javascript'>
+//checks if Name and Email have been filled and alerts user
  function validateForm()
 	{
 	 var a = document.forms['contactform']['fname'].value;
+	 var b = document.forms['contactform']['email'].value;
 		if (a=='')
 		{
 			alert('Name is required.');
 			return false;
 		}
-	 var b = document.forms['contactform']['email'].value;
-		if (b=='')
+		else if (b=='')
 		{
 			alert('Email is required.');
 			return false;
+		}
+		else 
+		{
+			alert('Thank you for contacting.');
 		}
 	}
 </script>
@@ -35,7 +40,7 @@
 <section class='form'>
 	<h1>Contact Me</h1>
 <div id="formtext">
-<form name='contactform' action="" method="POST" onsubmit='return validateForm()' >
+<form name='contactform' action=" " method="POST" onsubmit='return validateForm()' >
   <p>Name:<br>
     <input type="text" name="fname">
   </p>
