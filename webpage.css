@@ -1,3 +1,4 @@
+/*styling for banner*/
 .banner ul {
   list-style-type: none;
   margin: 0;
@@ -29,12 +30,12 @@ h1{
 }
 
 
-#formtext{
+#formtext{ /*styling for text in contact form*/
 	font-family:"Gill Sans", "Gill Sans MT", Helvetica, Arial, "sans-serif";
 	color:#000216;
 	font-size: 130%;
 }
-#favtext{
+#favtext{ /*styling for text in favourites.html*/
 	font-family:"Gill Sans", "Gill Sans MT", Helvetica, Arial, "sans-serif";
 	color:#000216;
 	font-size: 110%;
@@ -49,13 +50,13 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 }
-.content{
+.content{ /*styling for text on index page*/
 	font-family: Futura, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color:#000216;
 }
 
 
-section.contentpage{
+section.contentpage{ /*block background for text*/
 	display:block;
 	width:80%;
 	background-color:lightgrey;
